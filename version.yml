@@ -10,9 +10,9 @@
 #   workflows call GitHub Copilot CLI, which consumes GitHub Copilot AI Credits.
 #   Falls back to rule-based summaries whenever Copilot is off or unavailable.
 # - release_automerge: default true — false stops the release PR (develop -> main)
-#   from being merged automatically. Merge it yourself with a merge commit
-#   (recommended); squash and rebase merges skip the release workflow, so run
-#   PROJECT-RELEASE-PUBLISH manually if you used one.
+#   from being merged automatically. Merge it yourself; every merge method
+#   publishes the release, and a merge commit (recommended) keeps squashed or
+#   rebased changes from being listed again in the next release notes.
 # ===
 # Supported project types: spring, flutter, react, react-native,
 #                          react-native-expo, node, python, basic, go
@@ -42,7 +42,7 @@ language: "en" # message language: en | ko
 project_paths: # Project folder per type (path relative to the repo root)
   spring: "." # build.gradle
 metadata:
-  last_updated: "2026-10-16"
+  last_updated: "2026-10-16 08:53:43"
   last_updated_by: "Cassiiopeia"
   default_branch: "main"
   integration_date: "2026-10-16"
