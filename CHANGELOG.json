@@ -1,0 +1,30 @@
+{
+  "metadata": {
+    "lastUpdated": "2026-10-16T05:05:02Z",
+    "currentVersion": "1.0.1",
+    "projectTypes": [
+      "spring"
+    ],
+    "totalReleases": 1
+  },
+  "releases": [
+    {
+      "version": "1.0.1",
+      "project_types": [
+        "spring"
+      ],
+      "date": "2026-10-16",
+      "pr_number": null,
+      "raw_summary": "### 🔧 Changes\n- project-auto-wizard 0.17.0 설치",
+      "parsed_changes": {
+        "changes": {
+          "title": "🔧 Changes",
+          "items": [
+            "project-auto-wizard 0.17.0 설치"
+          ]
+        }
+      },
+      "parse_method": "markdown"
+    }
+  ]
+}
